@@ -19,6 +19,7 @@ class ForecastCard extends StatelessWidget {
     dayOfWeek = fullDate.split(',')[0];
 
     var tempMin = forecastList[index].temp?.min?.toStringAsFixed(0);
+    var temp = forecastList[index].temp?.day?.toStringAsFixed(0);
 
     var icon = forecastList[index].getIconUrl();
 
@@ -45,7 +46,7 @@ class ForecastCard extends StatelessWidget {
                     Padding(
                       padding: EdgeInsets.all(8),
                       child: Text(
-                        '$tempMin °C',
+                        '$temp °C',
                         style: TextStyle(fontSize: 27, color: Colors.white),
                       ),
                     ),

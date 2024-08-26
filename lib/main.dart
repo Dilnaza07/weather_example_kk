@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:weather_example_kk/screens/location_screen.dart';
 import 'package:weather_example_kk/screens/weather_forecast_screen.dart';
 
 
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: WeatherForecastScreen(),
+      home: LocationScreen(),
     );
   }
 }
