@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:weather_example_kk/models/weather_horecast_daily.dart';
 import 'package:weather_example_kk/screens/city_screen.dart';
 import 'package:weather_example_kk/widgets/city_view.dart';

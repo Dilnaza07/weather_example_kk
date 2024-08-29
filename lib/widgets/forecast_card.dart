@@ -18,7 +18,7 @@ class ForecastCard extends StatelessWidget {
     var fullDate = Util.getFormattedDate(date);
     dayOfWeek = fullDate.split(',')[0];
 
-    var tempMin = forecastList[index].temp?.min?.toStringAsFixed(0);
+    //var tempMin = forecastList[index].temp?.min?.toStringAsFixed(0);
     var temp = forecastList[index].temp?.day?.toStringAsFixed(0);
 
     var icon = forecastList[index].getIconUrl();
